@@ -29,6 +29,7 @@ public class SecondHomeWork {
             System.out.print(arr[i] + " ");
             if (arr[i] == 0) arr[i] = 1;
             else arr[i] = 0;
+
         }
         System.out.print("  ");
         for (int i : arr) {
