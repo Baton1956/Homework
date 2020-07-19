@@ -15,10 +15,11 @@ public class MainClass {
         employees[4] = new Employee("Semenov", "Semen", "Semenovich",
                 "manager", "sem@mail.me", 30000, 28);
         // Вывод на печать сотрудников, чей возраст > 40
-        for (Employee e : employees) if (e.getAge() > 40) e.getFullInfo();
-    }
 
+        for (Employee e : employees) {
+            if (e.getAge() > 40) {
+                e.getFullInfo();
+            }
+        }
 }
-
-
-
+}

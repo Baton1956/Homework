@@ -8,7 +8,7 @@ package dz04;
 import java.util.*;
 
 public class HomeworkLesson4 {
-    final int size = 5;                              // константа
+    final int size = 3;                              // константа
     char[][] map = new char[size][size];           // игровое поле
     final char cNull = '•', player = 'X', cpu1 = '0';  // константа
     Scanner sc = new Scanner(System.in);
